@@ -1,0 +1,6 @@
+syn match cssFontProp contained "\<line-height\>"
+syn match cssFontProp contained "\<text-align\>"
+syn match cssFontProp contained "\<text-decoration\>"
+syn match cssFontProp contained "\<overflow\>"
+syn match cssFontProp contained "\<user-drag\>"
+syn match cssFontProp contained "\<text-decoration\>"
