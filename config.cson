@@ -1,0 +1,48 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "93be05fe-4480-4e57-946a-e4e7688145a1"
+    python:
+      max_line_length: 10000
+  "atom-ide-ui":
+    "atom-ide-diagnostics-ui":
+      autoVisibility: true
+    use: {}
+  "atom-package-deps":
+    ignored: [
+      "linter-ui-default"
+    ]
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "atom-monokai"
+    ]
+  editor:
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "95457ce8-01d4-4e02-ae9d-da614df24407"
+  latex:
+    buildOnSave: true
+    openResultInBackground: false
+    opener: "pdf-view"
+    texPath: "/usr/bin/tex"
+  "linter-eslint":
+    disableWhenNoEslintConfig: false
+    eslintrcPath: "~/.eslintrc"
+  "linter-flake8":
+    maxLineLength: 10000
+  "linter-ui-default":
+    showPanel: true
+  "pdf-view":
+    fitToWidthOnOpen: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+".bibtex.text":
+  editor:
+    softWrap: false
+".latex.tex.text":
+  editor:
+    softWrap: true
